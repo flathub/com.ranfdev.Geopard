@@ -14,8 +14,8 @@
     {
         "type": "git",
         "url": "https://github.com/ranfdev/gtk-rs-core",
-        "commit": "b357168b9c88590317f7007e909f7cfff8e5d89b",
-        "dest": "flatpak-cargo/git/gtk-rs-core-b357168"
+        "commit": "f223b68c380db6d75655474eb27ead57e5b4267e",
+        "dest": "flatpak-cargo/git/gtk-rs-core-f223b68"
     },
     {
         "type": "git",
@@ -644,7 +644,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/gio\" \"cargo/vendor/gio\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/gio\" \"cargo/vendor/gio\""
         ]
     },
     {
@@ -656,7 +656,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/gio/sys\" \"cargo/vendor/gio-sys\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/gio/sys\" \"cargo/vendor/gio-sys\""
         ]
     },
     {
@@ -668,7 +668,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/glib\" \"cargo/vendor/glib\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/glib\" \"cargo/vendor/glib\""
         ]
     },
     {
@@ -680,7 +680,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/glib-macros\" \"cargo/vendor/glib-macros\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/glib-macros\" \"cargo/vendor/glib-macros\""
         ]
     },
     {
@@ -692,7 +692,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/glib/sys\" \"cargo/vendor/glib-sys\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/glib/sys\" \"cargo/vendor/glib-sys\""
         ]
     },
     {
@@ -704,7 +704,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/glib/gobject-sys\" \"cargo/vendor/gobject-sys\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/glib/gobject-sys\" \"cargo/vendor/gobject-sys\""
         ]
     },
     {
@@ -1045,7 +1045,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/pango\" \"cargo/vendor/pango\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/pango\" \"cargo/vendor/pango\""
         ]
     },
     {
@@ -1057,7 +1057,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-b357168/pango/sys\" \"cargo/vendor/pango-sys\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/gtk-rs-core-f223b68/pango/sys\" \"cargo/vendor/pango-sys\""
         ]
     },
     {
@@ -1824,6 +1824,6 @@
         "type": "inline",
         "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/gtk-rs/gtk-rs-core\"]\ngit = \"https://github.com/gtk-rs/gtk-rs-core\"\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/gtk-rs/gtk4-rs\"]\ngit = \"https://github.com/gtk-rs/gtk4-rs\"\nreplace-with = \"vendored-sources\"\n\n[source.\"https://github.com/ranfdev/gtk-rs-core\"]\ngit = \"https://github.com/ranfdev/gtk-rs-core\"\nreplace-with = \"vendored-sources\"\nbranch = \"props_macro\"\n\n[source.\"https://gitlab.gnome.org/World/Rust/libadwaita-rs\"]\ngit = \"https://gitlab.gnome.org/World/Rust/libadwaita-rs\"\nreplace-with = \"vendored-sources\"\n",
         "dest": "cargo",
-        "dest-filename": "config.toml"
+        "dest-filename": "config"
     }
 ]
