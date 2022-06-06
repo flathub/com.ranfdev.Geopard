@@ -34,7 +34,7 @@
                 {
                     "type" : "archive",
                     "url": "https://github.com/ranfdev/Geopard/releases/download/v1.1.1/com.ranfdev.Geopard.tar.xz",
-                    "sha256": "72660a7967d3d8613f11909174d23f13751e32806a1fb82c0eb31716dbf43318"
+                    "sha256": "05b1d4efe890cac0531e108bb9980f23effdc44c3e78c20989f9c677d2f05f83"
                 }
             ]
         }
