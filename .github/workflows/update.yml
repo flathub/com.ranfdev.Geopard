@@ -18,7 +18,7 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git commit -m "Update" -a
     - name: Push
-      run: git push -f update_action
+      run: git push -f
     - name: Create Pull Request
       run: gh pr create -f
       env:
