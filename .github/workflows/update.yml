@@ -13,3 +13,5 @@ jobs:
     - run: bash ./update.sh
     - name: Create Pull Request
       run: gh pr create --title "Update"
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
