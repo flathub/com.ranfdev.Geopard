@@ -1,7 +1,7 @@
 {
     "app-id": "com.ranfdev.Geopard",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -32,8 +32,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.4.0/com.ranfdev.Geopard.tar.xz",
-                    "sha256": "38490a23f3dc919c34c8a4348494adbae589ec3221de785071106f1bb6b72946",
+                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.5.0/com.ranfdev.Geopard.tar.xz",
+                    "sha256": "6c3173ffebd44452e82b5a93e4f81915e0affc8afeb44ee704c483dc15d38333",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/ranfdev/Geopard/releases/latest",
