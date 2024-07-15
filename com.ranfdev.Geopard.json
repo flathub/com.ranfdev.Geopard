@@ -32,7 +32,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.5.0/geopard-1.6.0.tar.xz",
+                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.6.0/geopard-1.6.0.tar.xz",
                     "sha256": "fd00f4f3066f2630cf4d40e2b37971bd5ed05939b484a755ea432f1a642c7dc0",
                     "x-checker-data": {
                         "type": "json",
