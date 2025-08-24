@@ -1,7 +1,7 @@
 {
     "app-id": "com.ranfdev.Geopard",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -23,11 +23,26 @@
     },
     "modules": [
         {
+            "name": "blueprint-compiler",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
+                    "tag": "v0.18.0",
+		    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
+                }
+            ]
+        },	
+        {
             "name": "Geopard",
             "buildsystem": "meson",
             "config-opts": [
                 "-Dbuildtype=release",
                 "-Doffline=true"
+            ],
+	    "build-commands": [
+                "rm -rf subprojects/blueprint-compiler"
             ],
             "sources": [
                 {
