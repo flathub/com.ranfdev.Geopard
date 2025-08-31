@@ -53,7 +53,7 @@
                         "type": "json",
                         "url": "https://api.github.com/repos/ranfdev/Geopard/releases/latest",
                         "version-query": ".tag_name | sub(\"^v\"; \"\")",
-                        "url-query": ".assets[] | select(.name==\"com.ranfdev.Geopard.tar.xz\") | .browser_download_url"
+                        "url-query": ".assets[] | select(.name==\"geopard-\" + $version + \".tar.xz\") | .browser_download_url"
                     }
                 }
             ]
