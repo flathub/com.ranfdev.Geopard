@@ -30,10 +30,10 @@
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
                     "tag": "v0.18.0",
-		    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
+                    "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
                 }
             ]
-        },	
+        },
         {
             "name": "Geopard",
             "buildsystem": "meson",
@@ -41,14 +41,14 @@
                 "-Dbuildtype=release",
                 "-Doffline=true"
             ],
-	    "build-commands": [
+            "build-commands": [
                 "rm -rf subprojects/blueprint-compiler"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.6.0/geopard-1.6.0.tar.xz",
-                    "sha256": "fd00f4f3066f2630cf4d40e2b37971bd5ed05939b484a755ea432f1a642c7dc0",
+                    "url": "https://github.com/ranfdev/Geopard/releases/download/v1.7.0/geopard-1.7.0.tar.xz",
+                    "sha256": "e781cae7a4e456b45e1142088432759c46acdce4bf0eb23ec02e524fef26417a",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/ranfdev/Geopard/releases/latest",
